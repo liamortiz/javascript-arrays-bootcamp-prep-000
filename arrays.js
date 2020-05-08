@@ -1,5 +1,9 @@
 let chocolateBars = ["snickets", "hundred grand", "kitkat", "skittles"]
 
-function addElementToBeginningOfArray() {
+function addElementToBeginningOfArray(arr, element) {
+  
+}
+
+function destructivelyAddElementToBeginningOfArray(arr, element) {
   
 }
