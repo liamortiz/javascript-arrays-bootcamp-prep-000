@@ -1,4 +1,4 @@
-let chocolateBars = ["snickets", "hundred grand", "kitkat", "skittles"]
+chocolateBars = ["snickets", "hundred grand", "kitkat", "skittles"]
 
 function addElementToBeginningOfArray(arr, element) {
   return [element, ...arr]
