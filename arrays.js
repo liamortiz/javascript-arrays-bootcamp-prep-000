@@ -32,8 +32,7 @@ function removeElementFromEndOfArray(arr) {
 }
 
 function addElementToEndOfArray(arr, element) {
-  arr[arr.length] = element
-  return arr
+  return [...arr, element]
 }
 
 function destructivelyAddElementToEndOfArray(arr, element) {
