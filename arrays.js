@@ -32,7 +32,7 @@ function removeElementFromEndOfArray(arr) {
 }
 
 function addElementToEndOfArray(arr, element) {
-  arr.push(element)
+  arr[arr.length] = element
   return arr
 }
 
